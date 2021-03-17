@@ -10,5 +10,3 @@ for a in range(3, 1000):
         for c in range(5, 1000):
             if (a < b < c) and (a + b + c == 1000):
                 pythagorean_number(a, b, c)
-
-# a * b * c
