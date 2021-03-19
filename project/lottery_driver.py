@@ -256,6 +256,8 @@ tries = []
 total_prize = 0
 total_cost = 0
 
+count = 0
+
 for i in range(NUM_TRIES):
     attempt = lottery.generate_numbers()
     prize = lottery.check(attempt, WINNING_NUMBERS)
